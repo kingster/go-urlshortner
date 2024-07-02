@@ -10,7 +10,6 @@ A simple golang based url shortner
 curl --location 'localhost:9090/shorten' \
 --header 'Content-Type: application/json' \
 --data '{
-    "shortcode" : "something",
     "url" : "github.com/labstack/echo"
 }'
 
